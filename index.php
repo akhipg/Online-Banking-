@@ -92,7 +92,7 @@
            </div>
            <div class="row justify-content-center">             
                 <div> 
-                    <p>© Copyright 2018 AG Bank</p>
+                    <p>© Copyright 2021 AG Bank</p>
                 </div>
            </div>
         </div>
