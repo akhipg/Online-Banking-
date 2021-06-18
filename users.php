@@ -40,7 +40,7 @@
 
      <div class="container">
         <div class="row row-content">
-            <div class="col-12 offset-2 col-sm-9">
+            <div class="col-12 offset-1 col-sm-9">
                 <h2 style="text-align: center; color: white">Customer Details</h2>
                 <br>
                 <div class="table-responsive">

@@ -47,19 +47,24 @@
 
     <div class="wrap">
      <div class="container">
+    
         <div class="row  row-content align-items-center">
-            <div class="col offset-1 col-sm col-md">
+            <div class="col-12 offset-1">
                 <div class="button">
                     <a href="users.php" class="btn">View Customers</a>
                 </div>
             </div>
-            <div class="col col-sm col-md">
+            <div class="col-12 offset-1 col-sm col-md">
                 <div class="button">
                     <a href="transactionhistory.php" class="btn">Transaction History</a>
                 </div>
             </div>
-            <div class="col col-sm col-md">
-                <img src="css\bank_bg.jpg" class="responsive">
+            
+
+            <div class="media">
+                    <img class="d-flex mr-3 img-fluid align-self-center"
+                            src="css\bank_bg.jpg" alt="Uthappizza">
+                    </div>
             </div>
         </div>
     
