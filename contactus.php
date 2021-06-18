@@ -25,7 +25,6 @@
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto ">
                     <li class="nav-item"><a class="nav-link" href="index.php"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
                     <li class="nav-item active"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
             </div>
@@ -73,9 +72,6 @@
                         <a href="mailto:akhipg@gmail.com">akhipg@gmail.com</a>
 		           </address>
             </div>
-            <div class="col-12 col-sm-6 offset-sm-1">
-                <h5>Map of our Location</h5>
-            </div>
             <div class="col-12 col-sm-11 offset-sm-1">
                 <div class="btn-group" role="group">
                     <a role="button" class="btn btn-primary" href="tel:8433795821"><i class="fa fa-phone"></i> Call</a>
@@ -84,12 +80,15 @@
             </div>
         </div>
 
+        
+
+
         <div class="row row-content">
            <div class="col-12">
               <h3>Send us your Feedback</h3>
            </div>
             <div class="col-12 col-md-9">
-                <form>
+                <form action="insert.php" method="POST">
                     <div class="form-group row">
                         <label for="firstname" class="col-md-2 col-form-label">First Name</label>
                         <div class="col-md-10">
@@ -104,11 +103,8 @@
                     </div>
                     <div class="form-group row">
                         <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
-                        <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
-                        </div>
                         <div class="col-7 col-md-7">
-                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
+                            <input type="number" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -141,7 +137,7 @@
                     </div>
                     <div class="form-group row">
                         <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                            <button type="submit" value="Submit" name="submit" class="btn btn-primary">Send Feedback</button>
                         </div>
                     </div>
                 </form>
